@@ -98,6 +98,15 @@ $ npm run pm2:restart:prod
 
 ```
 
+## QUEUES to Listen
+
+```bash
+
+
+# In your .env file, add the following line which is the queues to listen, seperated by commas
+$ QUEUES=queue1,queue2
+```
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
